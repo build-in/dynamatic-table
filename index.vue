@@ -295,8 +295,8 @@
 </template>
 <script>
 import { getGroupCustomerDetailInfo, getGroupListInfo, getGroupSummaryInfo } from '@/api/newMerchantServiceApi'
-import MerchantRanking from '@/components/MerchantRanking';
-import MMCPicker from '@/components/Date/rangePicker';
+import MerchantRanking from './MerchantRanking';
+import MMCPicker from './Date/rangePicker';
 import { mapState, mapGetters } from 'vuex';
 import { throttle } from 'lodash';
 import { imgsrc, FormatTimestamp, TYPE_LIST, RANK_LIST, TIME_TYPE_LIST } from './const';
