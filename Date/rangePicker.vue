@@ -8,7 +8,7 @@
 
 <script>
 import moment from 'moment';
-import { getRangeDateToMonth } from '@/utils/util.datetime.js';
+import { getRangeDateToMonth } from '../utils/util.datetime.js';
 
 export default {
   props: {
